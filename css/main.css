@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: Georgia, sans-serif;
   line-height: 1.5;
+  width: 400px;
 }
 
 body {
@@ -13,8 +14,9 @@ body {
 }
 
 header {
+  width: 400px;
   background-color: #ffe500;
-  text-align: center;
+  height: 7rem;
 }
 
 h1 {
@@ -22,31 +24,41 @@ h1 {
   color: #b20953;
   font-size: 3rem;
   margin: 0;
+  margin-bottom: -9px;
+  text-align: center;
 }
 
 h2 {
+  display: inline-block;
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
   font-size: 1.875rem;
-  margin-bottom: -2px;
+  /* margin-bottom: -5px; */
+  padding: .3em;
 }
 
 nav {
-  padding: .2em;
+  padding: 0;
+  display: inline;
+  width: 100%;
 }
 
 li {
   display: inline-block;
+  white-space: nowrap;
+  margin-bottom: 2rem;
 }
 
 a {
+  display: inline-block;
   color: #fff;
   text-decoration: none;
   font-size: 1.125rem;
   font-family: Georgia, serif;
   background-color: #b2a212;
   border-radius: 4px;
-  padding: .5em;
+  padding: .2em;
+  margin: 0;
 }
 
 a:hover {
@@ -54,20 +66,20 @@ a:hover {
 }
 
 .home, .blue, .grapes, .red {
-    background-color: #cc1465;
+  background-color: #b20953;
 }
 
 img {
   display: block;
   width: 100%;
-  padding: .75em;
+  padding: .5em;
 }
 
 p {
   display: inline-block;
   font-family: Georgia, serif;
   color: #2f2d13;
-  font-size: 1.125rem;
+  font-size: 1.1rem;
   padding: 0 .75em;
 }
 
@@ -75,6 +87,10 @@ footer {
   font-family: Georgia, serif;
   color: #2f2d13;
   font-size: .75rem;
+  display: flex;
   text-align: center;
+  justify-content: center;
   background-color: #ffe500;
+  padding-top: 15px;
+  line-height: 30px;
 }
