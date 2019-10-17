@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-family: Georgia, sans-serif;
   line-height: 1.5;
-  width: 400px;
 }
 
 body {
@@ -29,24 +28,28 @@ h1 {
 }
 
 h2 {
-  display: inline-block;
+  display: inline;
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
   font-size: 1.875rem;
-  /* margin-bottom: -5px; */
-  padding: .3em;
 }
 
 nav {
+  padding: 0 .3em;
+  display: inline-block;
+}
+
+ul {
+  display: inline-block;
+  margin: 0;
   padding: 0;
-  display: inline;
-  width: 100%;
+  padding-top: .45em;
 }
 
 li {
-  display: inline-block;
-  white-space: nowrap;
-  margin-bottom: 2rem;
+  display: inline;
+  margin: 0;
+  padding-left: .2em;
 }
 
 a {
@@ -57,8 +60,8 @@ a {
   font-family: Georgia, serif;
   background-color: #b2a212;
   border-radius: 4px;
-  padding: .2em;
   margin: 0;
+  padding: .3em;
 }
 
 a:hover {
@@ -72,15 +75,21 @@ a:hover {
 img {
   display: block;
   width: 100%;
-  padding: .5em;
+  padding-top: 1.6rem;
 }
 
-p {
+main {
+  padding: .85em;
+  margin-top: .75em;
+}
+
+.main {
   display: inline-block;
   font-family: Georgia, serif;
   color: #2f2d13;
-  font-size: 1.1rem;
-  padding: 0 .75em;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  padding-top: .2em;
 }
 
 footer {
@@ -91,6 +100,4 @@ footer {
   text-align: center;
   justify-content: center;
   background-color: #ffe500;
-  padding-top: 15px;
-  line-height: 30px;
 }
