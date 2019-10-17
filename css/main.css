@@ -1,20 +1,30 @@
 html {
-display: inline-block;
+  box-sizing: border-box;
 }
 
 header {
-  font-family: "Sigmar One", serif;
-  color: #b20953;
-  font-size: 1.875rem;
   background-color: #ffe500;
   text-align: center;
+}
+
+h1 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+  font-size: 1.875rem;
 }
 
 nav {
   padding: .2em;
 }
 
-li{
+li {
   display: inline-block;
 }
 
@@ -32,12 +42,24 @@ a:hover {
   background-color: #cc1465;
 }
 
-.home, .blue, .grapes, .red{
+.home, .blue, .grapes, .red {
     background-color: #cc1465;
 }
 
 img {
   display: inline-block;
-  max-width: 400px;
-  padding: .75em;
+  width: 400px;
+}
+
+p {
+  display: inline-block;
+  font-family: Georgia, serif;
+  color: #2f2d13;
+  font-size: 1.125rem;
+}
+
+footer {
+  font-family: Georgia, serif;
+  color: #2f2d13;
+  font-size: .75rem;
 }
