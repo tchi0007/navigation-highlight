@@ -3,5 +3,41 @@ display: inline-block;
 }
 
 header {
+  font-family: "Sigmar One", serif;
+  color: #b20953;
+  font-size: 1.875rem;
   background-color: #ffe500;
+  text-align: center;
+}
+
+nav {
+  padding: .2em;
+}
+
+li{
+  display: inline-block;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-family: Georgia, serif;
+  background-color: #b2a212;
+  border-radius: 4px;
+  padding: .5em;
+}
+
+a:hover {
+  background-color: #cc1465;
+}
+
+.home, .blue, .grapes, .red{
+    background-color: #cc1465;
+}
+
+img {
+  display: inline-block;
+  max-width: 400px;
+  padding: .75em;
 }
